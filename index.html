@@ -1390,6 +1390,7 @@
 
         const ok = await sendToFormspree({
           form_type: "community_signup",
+          _subject: "RedCloud – New Community Signup",
           name,
           email
         });
@@ -1421,6 +1422,7 @@
 
         const ok = await sendToFormspree({
           form_type: "contact",
+          _subject: "RedCloud – New Contact Message",
           name,
           email,
           message
